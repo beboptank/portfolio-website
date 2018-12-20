@@ -69,6 +69,12 @@ body {
   background: #F2E8E6;
 }
 
+h1 {
+	font-family: 'Handlee', cursive;
+	font-size: 44px;
+	font-weight: bold;
+}
+
 /*
   ===============================
   Navigation
@@ -78,8 +84,69 @@ body {
 .primary-nav {
 	grid-column-start: 1;
 	grid-column-end: 4;
+	width: 100%;
 }
 
 .primary-nav li {
 	display: inline;
+}
+
+/*
+  ===============================
+  Hero
+  ===============================
+*/
+
+.hero {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	width: 100%;
+}
+
+/*
+  ===============================
+  About
+  ===============================
+*/
+
+.about {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	width: 100%;
+}
+
+/*
+  ===============================
+  Portfolio
+  ===============================
+*/
+
+.portfolio {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	width: 100%;
+}
+
+/*
+  ===============================
+  CV
+  ===============================
+*/
+
+.resume {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	width: 100%;
+}
+
+/*
+  ===============================
+  Contact
+  ===============================
+*/
+
+.contact {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	width: 100%;
 }
